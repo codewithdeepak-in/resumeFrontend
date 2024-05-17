@@ -23,9 +23,9 @@ const Resume = () => {
                 console.error("Error fetching resume data:", error);
             }
         };
-
+    
         fetchData();
-    }, []); 
+    }, [uniqueId]); 
 
     return (
         <div className="m-5">
